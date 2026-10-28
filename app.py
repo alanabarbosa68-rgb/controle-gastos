@@ -117,3 +117,7 @@ st.metric(
 st.info(
     f"Sua categoria com maior gasto é: {maior_gasto}"
 )
+nota = st.file_uploader(
+    "📸 Envie uma nota fiscal",
+    type=["jpg", "jpeg", "png"]
+)
